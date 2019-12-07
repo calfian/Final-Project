@@ -6,6 +6,8 @@ TagManager:
   tags:
   - coin
   - floor
+  - enemy
+  - power
   layers:
   - Default
   - TransparentFX
@@ -43,9 +45,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 3234151453
+    locked: 0
   - name: Background
     uniqueID: 375605027
     locked: 0
   - name: Player
     uniqueID: 3094866177
+    locked: 0
+  - name: Pickup
+    uniqueID: 2686472207
     locked: 0
